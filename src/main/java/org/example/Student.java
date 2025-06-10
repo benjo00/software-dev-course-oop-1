@@ -9,6 +9,7 @@ public class Student {
         this.name = name;
         this.grade = grade;
         this.daysAbsent = daysAbsent;
+
     }
 
     public String getName() {
@@ -39,7 +40,7 @@ public class Student {
         return name + " " + grade;
     }
 
-    public void addAbsence() {
+    public int addAbsence() {
         return daysAbsent++;
     }
 
